@@ -1,0 +1,145 @@
+/* xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+xxl: 1400px */
+
+@media only screen and (max-width: 992px) {
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333%;
+  }
+
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+
+  .col-lg-2 {
+    flex: 0 0 auto;
+    width: 16.66667%;
+  }
+
+  .pl-lg-45 {
+    padding-left: 8%;
+  }
+
+  #app {
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .special-heading+h1 {
+    text-align: left;
+    margin-left: 28px;
+  }
+
+  .special-heading {
+    left: -20px;
+  }
+
+  .p-md-0 {
+    padding-left: 0
+  }
+
+
+  .description-card {
+    max-height: 100%;
+  }
+
+  .mt-md-4 {
+    margin-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card-image {
+    max-height: 250px;
+  }
+
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .pl-lg-45 {
+    padding-left: 0;
+  }
+
+  #app {
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .special-heading+h1 {
+    text-align: left;
+    margin-left: 28px;
+  }
+
+  .special-heading {
+    left: -20px;
+  }
+
+  .p-md-0 {
+    padding-left: 0
+  }
+
+  .p-0 {
+    padding: 0;
+  }
+
+  .score {
+    display: none;
+  }
+
+  .score-shimmer {
+    display: none;
+  }
+
+  .score-shimmer-md {
+    display: block;
+  }
+
+  .score-md {
+    display: block;
+  }
+
+  .game-description {
+    max-width: 100%;
+  }
+
+  .description-card {
+    max-height: 100%;
+  }
+
+  .mt-md-4 {
+    margin-top: 4rem;
+  }
+
+  .w-sm-100 {
+    width: 100%;
+  }
+}
